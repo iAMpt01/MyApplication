@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduceti PIN-ul de 4 cifre"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="64dp"
+        android:textColor="#FF4081"
+        android:textSize="20sp" />
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="1"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="2"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="3"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="4"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="5"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="6"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="7"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="8"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="9"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/currencyImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+
+</RelativeLayout>
